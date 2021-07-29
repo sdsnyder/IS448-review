@@ -1,0 +1,79 @@
+/*
+    Sebastian Snyder
+    Homework 4
+    IS 448
+    The Styling Sheet
+*/
+/*PART 1*/
+body{
+    background-color: tan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+/*PART 2*/
+.ttl{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 230px;
+}
+.p1{
+    margin-left: 150px;
+    margin-top: 100px;
+    position: absolute;
+    width: 600px;
+    padding: 10px;
+    background-color: white;
+}
+.aspect1{
+    font-family: 'Courier New', Courier, monospace;
+    color:cornflowerblue;
+    font-weight: bolder;
+}
+.aspect2{
+    font-family: 'Courier New', Courier, monospace;
+    color:forestgreen;
+    font-weight: bolder;
+}
+
+/*PART 3*/
+.p1:hover{
+    background-color: black;
+    color:silver;
+}
+.aspect1:hover{
+    color:red;
+}
+.aspect2:hover{
+    color:orange;
+}
+
+/* PART 4 */
+.form{
+    position: absolute;
+    width:600px;
+    left:158px;
+    top:265px;
+    padding: 10px;
+    background-color: white;
+    display: block;
+}
+
+.form input[type="text"]{
+    float:right;
+    width:40%;
+}
+.buttons{
+    margin-top: 30px;
+}
+
+/* PART 6*/
+h1{
+    font-size: 28px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+

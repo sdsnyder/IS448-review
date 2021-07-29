@@ -1,0 +1,66 @@
+<!--
+    Sebastian Snyder
+    Homework 4
+    IS 448
+    The Home Page 
+-->
+<!DOCTYPE html>
+
+    <head>
+        <title>ssnyder3 Homework4</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+        <script type = "text/javascript" src= "formcheck.js"> </script>
+    </head>
+
+    <body>
+
+        <!-- PART 2-->
+        <p class ="p1">
+            <span class="ttl">Homework 4</span><br />
+            I found this class incredibly useful in understanding the basics of web development, from basic user interface design, to <span class="aspect1">creating client-server interactions using PHP</span>
+            to allow users to interact with a MySQL database. I think others should join this class as it provides the chance to learn an invaluable skillset that can be utilized either in one's career 
+            or to follow personal goals such as <span class="aspect2">creating a blog</span>, or understanding how to begin making a storefront for a small business!
+        </p>
+        <!--PART 4-->
+        <div class="form">
+            <p>Please fill out this form so we can contact you if needed!</p>
+            <form method="POST" name= "contact" action="showInfo.php" method="POST">
+                 <p>
+                    <label>User name:</label> 
+                    <input type="text" placeholder= "Your username" id="name" name="name"/><br />
+                </p>
+                <p>
+                    <label>Street Address:</label> 
+                    <input type="text" placeholder= "Your street" id="street" name="street"/><br />
+                </p>
+                <p>
+                    <label>City:</label> 
+                    <input type="text" placeholder= "Your City of Residence" id="city" name="city"/><br />
+                </p>
+                <p>
+                    <label>State:</label> 
+                    <input type="text" placeholder= "Your state of residence" id="state" name="state"/><br />
+                </p>
+                <p>
+                    <label>Email address:</label> 
+                    <input type="text" placeholder= "Your email address" id="email" name="email"/><br /> 
+                </p>
+                <p>
+                    <label>Phone Number:</label> 
+                    <input type="text" placeholder= "Your phone number" id="phone" name="phone"/><br />
+                </p>
+                <div class = "buttons">
+                    <input type="submit" id="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+    </body>
+</html>
